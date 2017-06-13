@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFEFF0">
+
+    <com.hdz.signview.CoverView
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="#FEBFB3"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        app:coverWidth="10dp"
+        app:display_style="right_to_left"
+        app:itemDia="50dp" />
+
+    <com.hdz.signview.CoverView
+        android:id="@+id/cover_view2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/cover_view"
+        android:layout_marginTop="20dp"
+        android:background="#009378"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        app:coverWidth="10dp"
+        app:display_style="left_to_right"
+        app:itemDia="50dp" />
+
+    <com.hdz.signview.CoverView
+        android:id="@+id/cover_view3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/cover_view2"
+        android:layout_marginTop="20dp"
+        android:background="#009378"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        app:coverWidth="0dp"
+        app:display_style="left_to_right"
+        app:itemDia="50dp" />
+
+    <com.hdz.signview.CoverView
+        android:id="@+id/cover_view4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/cover_view3"
+        android:layout_marginTop="20dp"
+        android:background="#009378"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        app:coverWidth="-10dp"
+        app:display_style="left_to_right"
+        app:itemDia="50dp" />
+</RelativeLayout>
