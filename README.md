@@ -2,5 +2,6 @@
 =====================
 
 实现的效果如下：
+---
 ![github](https://github.com/handezhao/SignViewDemo/raw/master/picture/signview.jpg)
  
