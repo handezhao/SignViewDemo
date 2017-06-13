@@ -94,7 +94,6 @@ public class CoverView<T> extends ViewGroup {
             } else {
                 left = getPaddingLeft() + (itemDia - coverWidth) * i;
             }
-
             int right = left + itemDia;
             int top = getPaddingTop();
             int bottom = getPaddingTop() + itemDia;
