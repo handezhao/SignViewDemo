@@ -32,6 +32,7 @@ public class CoverView<T> extends ViewGroup {
     private int showCount = 0;
 
     private List<T> data;
+    //展示的数据
     private List<T> showData = new ArrayList<>();
 
     private CoverAdapter<T> adapter;
