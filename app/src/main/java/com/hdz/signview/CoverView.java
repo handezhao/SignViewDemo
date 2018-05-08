@@ -28,6 +28,7 @@ public class CoverView<T> extends ViewGroup {
     //覆盖的宽度
     private int coverWidth = 0;
 
+    //最终显示的图片数量
     private int showCount = 0;
 
     private List<T> data;
